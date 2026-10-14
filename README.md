@@ -1,150 +1,109 @@
-# 🚀 Praktikum Pemrograman Fungsional
+# 🚀 Functional Programming Laboratory
 
-Repositori ini berisi kumpulan tugas, codelab, dan modul praktikum untuk mata kuliah **Praktikum Pemrograman Fungsional** (Semester 5).
+This repository contains practical assignments, codelabs, and learning modules for the **Functional Programming Practical Course** (Semester 5).
 
 ---
 
-## 👤 Identitas Mahasiswa
+## 👤 Student Information
 
-| Informasi | Keterangan |
+| Information | Details |
 | :--- | :--- |
-| **Nama Lengkap** | Farid Al Farizi |
-| **NIM** | 202410370110017 |
-| **Mata Kuliah** | Praktikum Pemrograman Fungsional |
+| **Full Name** | Farid Al Farizi |
+| **Student ID (NIM)** | 202410370110017 |
+| **Course** | Functional Programming Practical Lab |
 | **Semester** | 5 |
 
 ---
 
-## 📁 Struktur Direktori
+## 📁 Repository Structure
 
 ```text
 .
 ├── Codelab 1/
-│   ├── MODUL_1_FUNGSIO_26.ipynb      # Materi dan panduan modul 1
-│   └── codelab1.ipynb                 # Pengerjaan latihan Codelab 1 (Exercise 1–8)
+│   ├── MODUL_1_FUNGSIO_26.ipynb      # Module 1 guide and practical reference
+│   └── codelab1.ipynb                 # Codelab 1 exercises implementation (Exercises 1–8)
 │
 ├── Codelab 2/
-│   ├── MODUL_2_FUNGSIO_26.ipynb      # Materi dan panduan modul 2
-│   └── codelab2.ipynb                 # Pengerjaan latihan Codelab 2 (Exercise 1–6)
+│   ├── MODUL_2_FUNGSIO_26.ipynb      # Module 2 guide and practical reference
+│   └── codelab2.ipynb                 # Codelab 2 exercises implementation (Exercises 1–6)
 │
 ├── Tugas 1/
 │   ├── Assignment 1/
-│   │   └── Assignment_1.ipynb         # Tugas 1: Dual Output, Tuple Conversion, Rekursi & Error Handling
+│   │   └── Assignment_1.ipynb         # Assignment 1: Dual Output, Tuple Conversion, Recursion & Exceptions
 │   └── Assignment 2/
-│       └── Assignment_2.ipynb         # Tugas 1: Sistem Pencatatan Data Eksperimen Kecepatan Internet
+│       └── Assignment_2.ipynb         # Assignment 2: Internet Speed Experiment Logging System
 │
-├── .gitignore                         # Konfigurasi file yang diabaikan oleh Git
-├── requirements.txt                   # Dependensi environment Python / Jupyter
-└── README.md                          # Dokumentasi repositori
+├── .gitignore                         # Git ignore configurations (Python, macOS, Jupyter)
+├── requirements.txt                   # Environment dependencies for Jupyter
+└── README.md                          # Repository documentation
 ```
 
 ---
 
-## 📚 Ringkasan Materi & Tugas
+## 📚 Curriculum & Assignment Breakdown
 
-### 🔹 Modul 1 & Codelab 1: Dasar Pemrograman Fungsional Python
-- **Topik Pembahasan:**
-  - Tipe data dasar, variabel, dan immutability vs mutability.
-  - Struktur data koleksi: *List*, *Tuple*, *Dictionary*, dan *Set*.
-  - Slicing, indexing, dan kontrol alur (*control flow*).
-  - Konsep fungsi dasar, dual output function, rekursi dasar, serta penanganan error (*exception handling*).
-- **Codelab 1:** Implementasi latihan soal (Exercise 1 s/d Exercise 8) sesuai instruksi modul praktikum.
+### 🔹 Module 1 & Codelab 1: Python Fundamentals for Functional Programming
+- **Core Topics:**
+  - Primitive data types, variable scope, immutability vs mutability.
+  - Python data structures: Lists, Tuples, Dictionaries, and Sets.
+  - Slicing, indexing, and control flow.
+  - Basic function concepts, dual-output functions, basic recursion, and exception handling (`try-except`).
+- **Codelab 1:** Hands-on solutions for Exercises 1 through 8.
 
-### 🔹 Modul 2 & Codelab 2: Pure Functions & Immutability
-- **Topik Pembahasan:**
-  - *Effect-Free Programming*: Menulis kode bebas dari efek samping (*side effects*).
-  - *Pure Functions*: Fungsi deterministik yang menghasilkan output konsisten untuk input yang sama tanpa memodifikasi variabel di luar cakupannya.
-  - *Immutability*: Menghindari mutasi data in-place dengan membuat salinan baru (*deep copy* / fungsi murni).
-- **Codelab 2:** Implementasi penyelesaian latihan studi kasus (Exercise 1 s/d Exercise 6) mengenai fungsi murni dan manipulasi data immutable.
+### 🔹 Module 2 & Codelab 2: Pure Functions & Immutability
+- **Core Topics:**
+  - **Effect-Free Programming:** Writing predictable code free from external side-effects.
+  - **Pure Functions:** Deterministic functions producing identical output for identical inputs without mutating outside state.
+  - **Immutability:** Safeguarding data states using defensive copies (`copy.deepcopy`) and functional transformations instead of in-place mutation.
+- **Codelab 2:** Practical implementations of pure functions and immutable data handling (Exercises 1 through 6).
 
-### 🔹 Tugas 1 (Assignments)
+### 🔹 Assignment 1 & 2
 - **Assignment 1:**
-  1. *Function 1 & Function 2*: Fungsi pemisah data dengan dual output.
-  2. *Konversi ke Tuple*: Pemrosesan data mahasiswa kelulusan (NIM ganjil) menjadi struktur immutable *Tuple*.
-  3. *Rekursi & Exception Handling*: Implementasi fungsi rekursif dengan mekanisme penanganan pengecualian (*try-except-else*).
-- **Assignment 2 (Sistem Pencatatan Data Eksperimen Kecepatan Internet):**
-  1. *Struktur Data & Mock Data*: Inisialisasi struktur dataset eksperimen kecepatan internet.
-  2. *Validasi Input*: Validasi input interaktif menggunakan `while loop` dan `try-except`.
-  3. *Navigasi Menu Slicing*: Menampilkan data secara modular menggunakan teknik slicing.
-  4. *Autentikasi*: Fitur registrasi dan login dengan validasi kredensial.
-  5. *Session Lock & Manipulasi Data*: Penguncian sesi pengguna saat manipulasi data dilakukan.
-  6. *Program Utama*: Integrasi antarmuka terminal/interaktif secara menyeluruh.
+  1. *Function 1 & Function 2:* Multi-return data classification functions.
+  2. *Tuple Conversion:* Data extraction and immutable tuple conversion for passing students (tailored to odd NIM).
+  3. *Recursion with Error Handling:* Recursive traversal and validation combined with `try-except-else` error handling.
+- **Assignment 2 (Internet Speed Experiment Logging System):**
+  1. *Data Architecture & Mock Data:* Comprehensive mock dataset for network speed benchmarks.
+  2. *Input Validation:* Interactive input validation utilizing `while` loops and exception catching.
+  3. *Menu Navigation with Slicing:* Modular display formatting via slicing.
+  4. *Authentication System:* User registration, login verification, and role-based metadata access.
+  5. *Session Lock & Safe Mutation:* Lock mechanism ensuring session security during data mutation.
+  6. *Interactive Main Application:* Fully integrated terminal-driven user experience.
 
 ---
 
-## 🛠️ Prasyarat & Menjalankan Notebook
+## 🛠️ Prerequisites & Getting Started
 
-### 1. Prasyarat Sistem
+### 1. Requirements
 - **Python 3.10+**
-- Visual Studio Code (dengan ekstensi Jupyter) atau **JupyterLab** / **Google Colab**
+- Visual Studio Code (with Jupyter extension) or **JupyterLab** / **Google Colab**
 
-### 2. Setup Virtual Environment (Opsional namun Disarankan)
+### 2. Virtual Environment Setup (Recommended)
 ```bash
-# Buat virtual environment
+# Create a virtual environment
 python3 -m venv venv
 
-# Aktifkan virtual environment (macOS / Linux)
+# Activate on macOS / Linux
 source venv/bin/activate
 
-# Atau aktifkan di Windows (PowerShell)
+# Or activate on Windows (PowerShell)
 # .\venv\Scripts\Activate.ps1
 ```
 
-### 3. Instalasi Dependensi
+### 3. Install Dependencies
 ```bash
 pip install -r requirements.txt
 ```
 
-### 4. Menjalankan Jupyter Notebook
+### 4. Launch Jupyter Notebook / Lab
 ```bash
 jupyter lab
-# atau
+# or
 jupyter notebook
 ```
-Buka file `.ipynb` yang diinginkan melalui antarmuka Jupyter atau langsung lewat VS Code.
+Open any `.ipynb` file in your preferred environment to view or run the code cells.
 
 ---
 
-## 📤 Panduan Push ke GitHub
-
-Jika repositori ini belum dihubungkan ke GitHub, ikuti langkah-langkah berikut:
-
-### 1. Inisialisasi Git Lokal
-Pastikan Anda berada di direktori utama folder tugas ini:
-```bash
-# Inisialisasi repositori Git
-git init
-
-# Buat branch utama dengan nama 'main'
-git branch -M main
-```
-
-### 2. Tambahkan File ke Staging & Buat Commit Pertama
-```bash
-# Cek status file (pastikan file tersembunyi seperti .DS_Store sudah terabaikan)
-git status
-
-# Tambahkan semua file yang relevan
-git add .
-
-# Buat commit pertama
-git commit -m "feat: inisialisasi repositori praktikum pemrograman fungsional"
-```
-
-### 3. Hubungkan ke Remote Repository GitHub
-1. Buat repositori baru di [GitHub](https://github.com/new) (misalnya diberi nama `praktikum-pemrograman-fungsional`).
-2. Jangan centang *Add a README file*, *Add .gitignore*, atau *Choose a license* (karena sudah dibuat secara lokal).
-3. Salin URL repositori Anda, lalu jalankan:
-
-```bash
-# Ganti URL di bawah dengan URL repositori Anda
-git remote add origin https://github.com/username/praktikum-pemrograman-fungsional.git
-
-# Push ke GitHub
-git push -u origin main
-```
-
----
-
-## 📄 Lisensi & Kontribusi
-Repositori ini ditujukan untuk keperluan akademik perkuliahan pada mata kuliah Praktikum Pemrograman Fungsional. Silakan gunakan sebagai bahan referensi dan pembelajaran.
+## 📄 Academic Disclaimer & License
+This repository is developed strictly for academic coursework in the Functional Programming Practical Course. Feel free to reference it for learning and educational purposes.
