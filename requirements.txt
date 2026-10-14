@@ -1,0 +1,4 @@
+# Dependencies for Functional Programming Practical Lab
+jupyterlab>=4.0.0
+notebook>=7.0.0
+ipykernel>=6.0.0
