@@ -35,6 +35,7 @@ This repository contains practical assignments, codelabs, and learning modules f
 │
 ├── .gitignore                         # Git ignore configurations (Python, macOS, Jupyter)
 ├── requirements.txt                   # Environment dependencies for Jupyter
+├── LICENSE                            # MIT License
 └── README.md                          # Repository documentation
 ```
 
@@ -106,4 +107,4 @@ Open any `.ipynb` file in your preferred environment to view or run the code cel
 ---
 
 ## 📄 Academic Disclaimer & License
-This repository is developed strictly for academic coursework in the Functional Programming Practical Course. Feel free to reference it for learning and educational purposes.
+This repository is developed strictly for academic coursework in the Functional Programming Practical Course. Feel free to reference it for learning and educational purposes. Distributed under the [MIT License](LICENSE).
